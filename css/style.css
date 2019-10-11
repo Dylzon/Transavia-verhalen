@@ -238,7 +238,9 @@ main.gefrustreerd img {
   margin: 1em;
   background-color: #f7f7f7;
   border-radius: 1em;
-  display: none;
+  margin-top: -15em;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .filter legend {
@@ -249,6 +251,12 @@ main.gefrustreerd img {
 .filter fieldset {
   border: 0;
   margin: 1em;
+}
+
+.show-filter {
+  margin-top: 0em;
+  visibility: visible;
+  opacity: 1;
 }
 
 /** inloggen/aanmelden **/

@@ -1,8 +1,8 @@
-function ShowHide() {
-    var x = document.getElementById('toggle')
-    if (x.style.display === "none") {
-        x.style.display = "flex";
-    } else {
-        x.style.display = "none";
-    }
-}
+//declaratie
+var filteren = document.querySelector('form.filter');
+var filterbutton = document.querySelector('button#toggle');
+
+//functie waardoor de actie wordt gestart
+filterbutton.addEventListener("click",function(){
+  filteren.classList.toggle('show-filter');
+});
