@@ -71,6 +71,7 @@ ul li a:hover {
   color: #2800a0;
 }
 
+/** Bron header afbeelding: https://www.placeducentre.com/app/uploads/sites/12/2019/06/BlogueJuin2.jpg **/
 header section {
   background-image: url(../img/header.jpg);
   background-size: cover;
